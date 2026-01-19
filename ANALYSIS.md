@@ -277,7 +277,8 @@ Microservices  คงไว้ N-Tier
 ---
 
 **🔗 Links**  
-- GitHub Repository: _______________________  
+- GitHub Repository: https://github.com/PhacharaChangyouang/week6-ntier-taskboard/tree/main
+
 - VM IP Address: __127.0.0.1___________  
 - API Endpoint: https://taskboard.local/api  
 
