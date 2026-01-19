@@ -258,28 +258,28 @@ Microservices  คงไว้ N-Tier
 ## 📸 Screenshots
 
 1. Services Status (PostgreSQL, Nginx, PM2)  
-![alt text](<Screenshot 2026-01-19 223346.png>)
-![alt text](<Screenshot 2026-01-19 223424.png>)
+![Services Status](docs/screenshots/pm2.png)
+![PostgreSQL Status](docs/screenshots/posSQL.png)
 
 2. HTTPS in Browser (https://taskboard.local)  
-![alt text](<Screenshot 2026-01-19 223619.png>)
+![HTTPS Browser](docs/screenshots/https.png)
 
 3. API Response (`curl -k https://taskboard.local/api/tasks`)  
-![alt text](<Screenshot 2026-01-19 223748.png>)
-
+![API Response](docs/screenshots/curl.png)
 
 4. Task Board UI Working  
-![alt text](<Screenshot 2026-01-19 224006.png>)
+![Task Board UI](docs/screenshots/localhost.png)
 
 5. Create/Edit Task  
-![alt text](<Screenshot 2026-01-19 224114.png>)
+![Create/Edit Task](docs/screenshots/upday.png)
+
 
 ---
 
 **🔗 Links**  
 - GitHub Repository: https://github.com/PhacharaChangyouang/week6-ntier-taskboard/tree/main
 
-- VM IP Address: __127.0.0.1___________  
+- VM IP Address: __127.0.0.1
 - API Endpoint: https://taskboard.local/api  
 
 
