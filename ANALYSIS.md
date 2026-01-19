@@ -75,18 +75,47 @@
 ## คำถาม 3: สถานการณ์การใช้งาน (10 คะแนน)
 
 **สถานการณ์ A: Startup MVP**  
+สถานการณ์ A: Startup MVP
+
+Context:
+งบประมาณ: 50,000 บาท
+ทีม: 2 คน (Junior developers)
+Timeline: 1 เดือน
+Users: 100 คน
+ความต้องการพิเศษ: ต้องการ feedback จากลูกค้าเร็ว
 - Architecture ที่เลือก: [x] Week 3 / [ ] Week 4 / [ ] Week 5 / [ ] Week 6  
 - เหตุผล: ต้องการพัฒนาเร็ว, ทีมเล็ก, budget ต่ำ, feedback เร็ว  
 
 **สถานการณ์ B: E-commerce Platform**  
+Context:
+
+งบประมาณ: 2,000,000 บาท
+ทีม: 10 คน (Mixed experience)
+Timeline: 6 เดือน
+Users: 100,000 คน
+ความต้องการพิเศษ: รองรับ Flash Sale, Payment Gateway
 - Architecture ที่เลือก: [ ] Week 3 / [ ] Week 4 / [ ] Week 5 / [x] Week 6  
 - เหตุผล: รองรับผู้ใช้จำนวนมาก, ต้องการ scalability, security, HTTPS  
 
-**สถานการณ์ C: Internal Company Tool**  
+**สถานการณ์ C: Internal Company Tool** 
+Context:
+
+งบประมาณ: 200,000 บาท
+ทีม: 3 คน (Mid-level)
+Timeline: 2 เดือน
+Users: 50 คน (พนักงานบริษัท)
+ความต้องการพิเศษ: ใช้งานภายในองค์กร, VPN 
 - Architecture ที่เลือก: [ ] Week 3 / [ ] Week 4 / [x] Week 5 / [ ] Week 6  
 - เหตุผล: ใช้งานภายใน, ทีมขนาดเล็ก, ต้องการ basic client-server separation  
 
 **สถานการณ์ D: Banking Application**  
+Context:
+
+งบประมาณ: 10,000,000 บาท
+ทีม: 20 คน (Senior + Mid)
+Timeline: 12 เดือน
+Users: 1,000,000 คน
+ความต้องการพิเศษ: Security Critical, Compliance, Audit logs
 - Architecture ที่เลือก: [ ] Week 3 / [ ] Week 4 / [ ] Week 5 / [x] Week 6  
 - เหตุผล: Security-critical, compliance, audit logs, high availability  
 
@@ -229,23 +258,29 @@ Microservices  คงไว้ N-Tier
 ## 📸 Screenshots
 
 1. Services Status (PostgreSQL, Nginx, PM2)  
+![alt text](<Screenshot 2026-01-19 223346.png>)
+![alt text](<Screenshot 2026-01-19 223424.png>)
 
 2. HTTPS in Browser (https://taskboard.local)  
+![alt text](<Screenshot 2026-01-19 223619.png>)
 
 3. API Response (`curl -k https://taskboard.local/api/tasks`)  
+![alt text](<Screenshot 2026-01-19 223748.png>)
+
 
 4. Task Board UI Working  
+![alt text](<Screenshot 2026-01-19 224006.png>)
 
 5. Create/Edit Task  
+![alt text](<Screenshot 2026-01-19 224114.png>)
 
 ---
 
 **🔗 Links**  
 - GitHub Repository: _______________________  
-- VM IP Address: _______________________  
+- VM IP Address: __127.0.0.1___________  
 - API Endpoint: https://taskboard.local/api  
 
-✅ Self-Check: ตารางครบ, Quality Attributes ครบ, สถานการณ์ครบ, ปัญหา/วิธีแก้ชัดเจน, Evolution path, Screenshots 5 รูป, Push GitHub
 
 *ENGSE207 - Software Architecture - Week 6*  
 *มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา*
